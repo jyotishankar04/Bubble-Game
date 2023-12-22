@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    background-color: #a3b18a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #dad7cd;
+    overflow: hidden;
+}
+#topPanel{
+    width: 100%;
+    height: 80px;
+    background-color: #344E41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0  20%;
+    color: #fff;
+}
+.elem{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    color: #344E41;
+    font-weight: 700;
+}
+
+#mainPanel{
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.bubble{
+    background-color: #344E41;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cec6c6;
+    font-weight: 700;
+    font-size: 22px;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: #2f463c;
+}
+#popUp{
+    top: -100%;
+    color: #fff;
+left: 50%;
+transform: translateX(-50%);
+width: 60%;
+height: 40%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+position: absolute;
+background-color: #588157;
+border-radius: 30px;
+transition: all ease 1s;
+}
+
+#newGame{
+    width: 80%;
+    padding: 10px ;
+    background-color: #2f463c;
+    border: none;
+    border-radius: 10px;
+    color: #dad7cd;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+#newGame:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
