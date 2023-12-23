@@ -27,7 +27,7 @@ let makeBubbles = () => {
   }
   clutter = mainPanel.innerHTML = clutter;
 };
-
+//
 // ? Timer function that changes time per second
 let runTimer = () => {
   let timeTravel = setInterval(() => {
