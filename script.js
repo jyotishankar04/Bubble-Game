@@ -13,6 +13,8 @@ let titleGame = document.querySelector("#titleGame");
 
 // !This clutter helps us to create new bubbles inside the main pannel
 
+
+
 //? variables
 let timeVar = 60;
 let clutter = ``;
